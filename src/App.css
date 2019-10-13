@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: calc(100vh-100px);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0;
+  padding: 50px;
+}
+.layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+  column-gap: 40px;
+}
+.orange{
+  color: orange;
+}
+.purple{
+  color: purple;
+}
+.ratecontainer{
+  border-top: 2px solid purple;
+}
+.ratecontainer span.fa{
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.movie-item{
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+}
+.movie-item span{
+  font-size: 1.2em;
+  margin: 16px 5px;
+}
+button{
+  color:#444444;
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size:0.8em;
+  outline: none;
+}
+button:disabled{
+  color:#f3f3f3;
+  background-color: #444444;
+  cursor: not-allowed;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  margin:8px 0;
+  font-size: 0.8em;
+}
+
+.fa-trash{
+  color:crimson;
+}
+h1{
+  color:orange;
+  font-size: 5em;
+}
+h1 span.fa{
+  color:#f3f3f3;
+  transform: rotate(15deg);
+}
+.login-mv{
+  color:orange;
+  font-size: 5em;
+}
+.fa-film-alt{
+  color:gold;
+  transform: rotate(15deg);
+  font-size: 5em;
+}
+.login-container{
+  /* background-color: #282c34; */
+  /* display:flex; */
+  width:50%;
+  margin: 50px 25%;
+}
